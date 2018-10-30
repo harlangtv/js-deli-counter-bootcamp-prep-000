@@ -17,9 +17,9 @@ function currentLine(line){
   if (line.length === 0){
     return "The line is currently empty."
   }
-  let lineStatus = "The line is currently: "
+  var lineStatus = "The line is currently: "
 
-  const comma = []
+  var comma = []
 
   for (let i = 0, x = line.length; i < x; i++){
    comma.push(`${i+1}. ${line[i]}`)
